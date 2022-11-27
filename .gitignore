@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea/
+.vscode/
+
+# dependencies
+/node_modules
+jspm_packages/
+/jspm_packages
+/.pnp
+.pnp.js
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+my-app*
+template/src/__tests__/__snapshots__/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+/.changelog
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Distribution directories
+dist/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+yarn.lock
